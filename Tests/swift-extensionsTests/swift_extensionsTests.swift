@@ -8,18 +8,8 @@ final class swift_extensionsTests: XCTestCase {
         // results.
         XCTAssertEqual(swift_extensions().text, "Hello, World!")
     }
-    
-    func testCanGetCharacterAtIndex() {
-        XCTAssertEqual("Hello World!"[0], "H")
-    }
-    
-    func testCanGetNegativeCharacter() {
-        XCTAssertEqual("Hello World!"[-5], "o")
-    }
 
     static var allTests = [
         ("testExample", testExample),
-        ("testCanGetCharacterAtIndex", testCanGetCharacterAtIndex),
-        ("testCanGetNegativeCharacter", testCanGetNegativeCharacter),
     ]
 }

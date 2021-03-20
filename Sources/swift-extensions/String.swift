@@ -9,7 +9,8 @@ import Foundation
 
 
 extension String {
-    public subscript(index: Int) -> Character {
-        return self[self.index(index >= 0 ? startIndex : endIndex, offsetBy: index)]
+    public subscript(index: Int) -> Character? {
+        return (index >= self.count || (-index) >= self.count)
+            ? nil : self[self.index(index >= 0 ? startIndex : endIndex, offsetBy: index)]
     }
 }
