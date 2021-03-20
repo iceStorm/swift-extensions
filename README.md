@@ -3,4 +3,5 @@
 ### Some self-made extensions for serving study.
 
 
-### Swift package manager: https://github.com/iceStorm/swift-extensions.git
+
+### Use in X-Code with Swift package manager: https://github.com/iceStorm/swift-extensions.git
