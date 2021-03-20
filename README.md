@@ -2,6 +2,6 @@
 
 ### Some self-made extensions for serving study.
 
-
+### 
 
 ### Use in X-Code with Swift Package Manager: ```https://github.com/iceStorm/swift-extensions.git```
